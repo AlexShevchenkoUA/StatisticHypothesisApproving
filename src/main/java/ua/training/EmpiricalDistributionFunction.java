@@ -39,4 +39,8 @@ public class EmpiricalDistributionFunction {
     public double sampleSize() {
         return sample.length;
     }
+
+    public double[] getSample() {
+        return sample;
+    }
 }
