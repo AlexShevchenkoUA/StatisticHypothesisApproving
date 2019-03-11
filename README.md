@@ -14,7 +14,7 @@ Java application for different statistic hypotheses approving
   <ul>
     <li><code>ChiSquareCriteria</code> - implemetation of chi square criteria for testing hypothesis about type of distribution</li>
     <li><code>EmptyBoxesCriteria</code> - implemetation of criteria for tesing hypothesis that distribution is uniform on interval [0, 1]</li>
-    <li><code>SmivnovCriteria</code> - implemetation of criteria for testing that two samples are from the same probability distribution</li>
+    <li><code>SmirnovCriteria</code> - implemetation of criteria for testing that two samples are from the same probability distribution</li>
   </ul>
 </li>
 
