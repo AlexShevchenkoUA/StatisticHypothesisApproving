@@ -61,11 +61,11 @@ public class IntervalCounter {
                 '}';
     }
 
-    public double put() {
+    double put() {
         return ++counter;
     }
 
-    public boolean in(double x) {
-        return (left <= x) && (x <= right);
+    boolean in(double x) {
+        return (left <= x) && (x < right);
     }
 }

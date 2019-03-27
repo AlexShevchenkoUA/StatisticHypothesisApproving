@@ -19,4 +19,8 @@ public class DistributionSampler {
                 .limit(size)
                 .toArray();
     }
+
+    public double next() {
+        return inverseCumulativeFunction.apply(random.nextDouble());
+    }
 }
